@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
               // git credentialsId: 'git', url: 'https://github.com/sourav997/JenkinsDeclarative.git'
-               echo 'Hello World..' 
+               echo 'Hello World...' 
               
             }
         }
